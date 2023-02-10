@@ -1,45 +1,19 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 
-function ProjectCards() {
+function ProjectCards(props) {
   return (
-    <CardGroup>
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card className="project-card-view" >
+        <Card.Img variant="top" src={props.imgPath} alt='card-img' />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Title>{props.title}</Card.Title>
+            <Card.Text style={{textAlign:"justify"}}>
+              {props.description}
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" href={props.ghLink} target="blank" >Demo</Button>
         </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-        </Card>
-    </CardGroup>
   );
 }
 
