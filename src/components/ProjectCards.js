@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCards(props) {
   return (
-        <Card className="project-card-view" >
+        <Card className="project-card-view"  style={{background:"transparent"}} >
         <Card.Img variant="top" src={props.imgPath} alt='card-img' />
         <Card.Body>
             <Card.Title>{props.title}</Card.Title>

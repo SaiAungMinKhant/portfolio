@@ -2,8 +2,6 @@ import React from "react";
 import {Container,Col,Row} from "react-bootstrap";
 import ProjectCards from "./ProjectCards";
 import image1 from "./images/image1.jpg";
-import image2 from "./images/image2.jpg";
-import image3 from "./images/image3.jpg";
 
 function Projects(){
     return(
