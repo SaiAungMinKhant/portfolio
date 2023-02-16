@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 function Footer() {
   return (
-    <Card>
-      <Card.Body>
+    <Card className='footer'>
+      <Card.Body className='footer-body'>
         <Card.Title>Special title treatment</Card.Title>
         <Card.Text>
           With supporting text below as a natural lead-in to additional content.

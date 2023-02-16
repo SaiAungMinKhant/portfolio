@@ -14,7 +14,7 @@ function Header (){
                             My Name Is  
                             <strong> Sai Aung Min Khant</strong>
                         </h1>
-                        <h1>I'm a Full Stack Web Developer</h1>
+                        <h1>I'm a Front-End Developer</h1>
                     </Col>
                     <Col md={5}>
 

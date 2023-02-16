@@ -11,3 +11,17 @@
 }
 
 /* Project End */
+
+/*  Footer Start */
+.footer {
+    background-color: transparent;
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important ;
+  }
+
+  .footer-body {
+    z-index: 1;
+    text-align: center !important;
+  }
+/* Footer End  */
