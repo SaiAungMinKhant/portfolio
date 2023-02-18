@@ -5,9 +5,11 @@ import image1 from "./images/image1.jpg";
 
 function Projects(){
     return(
-        <Container fluid="md">
-            <h2>My Recent Works</h2>
+        <Container fluid className="project">
+            <div className="project-intro">
+            <h2 style={{paddingBottom:"10px"}}>My Recent Works</h2>
             <h3>Here are a few projects I've worked on recently.</h3>
+            </div>
             <Row style={{justifyContent:"center",paddingBottom:"10px"}}>   
                 <Col md="4" className="project-card" >
                     <ProjectCards

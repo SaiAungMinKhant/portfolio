@@ -4,7 +4,7 @@ import {DiJavascript1,DiNodejs,DiReact,DiGit,DiPostgresql} from "react-icons/di"
 
 function Skills(){
     return(
-        <Container>
+        <Container className="skill">
             <Row>
                 <h2>Technologies I Use</h2>
                 <Col>

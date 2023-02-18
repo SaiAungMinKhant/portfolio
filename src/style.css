@@ -16,16 +16,38 @@ h4{
 .nav{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-
 /* Nav Bar End */
 
-/* Project Start*/
+/* Header Start */
+.home-section{
+  text-align: left;
+  padding: 80px 25px;
+}
+/* Header End */
 
+/* Skill Start */
+
+/* Skill End */
+
+/* Project Start*/
+.project{
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+.project-intro{
+  text-align: center;
+}
 .project-card{
     padding: 25px 50px;
     height: auto;
 }
-
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 4px 2px rgba(0,0,0,.2) !important;
+}
 /* Project End */
 
 /*  Footer Start */

@@ -14,11 +14,11 @@ function CollapsibleExample() {
 
           <Nav>
 
-            <Nav.Link href="#deets"><h4>About</h4></Nav.Link>
+            <Nav.Link href="#about"><h4>About</h4></Nav.Link>
 
-            <Nav.Link eventKey={2} href="#memes"><h4>Contact</h4></Nav.Link>
+            <Nav.Link href="#Projects"><h4>Contact</h4></Nav.Link>
 
-            <Nav.Link eventKey={2} href="#memes"><h4>Contact</h4></Nav.Link>
+            <Nav.Link href="#Contact"><h4>Contact</h4></Nav.Link>
 
           </Nav>
 

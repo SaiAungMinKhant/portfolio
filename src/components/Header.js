@@ -6,18 +6,12 @@ function Header (){
         <section>
             <Container fluid className='home-section' id='home'>
                 <Row>
-                    <Col md={7}>
-                        <h1>
-                            Hi there!
-                        </h1>
+                    <Col>
                         <h1>
                             My Name Is  
-                            <strong> Sai Aung Min Khant</strong>
+                            <strong> Sai Aung Min Khant </strong>
                         </h1>
-                        <h1>I'm a Front-End Developer</h1>
-                    </Col>
-                    <Col md={5}>
-
+                        <h2>I'm a Web Developer</h2>
                     </Col>
                 </Row>
             </Container>
