@@ -1,7 +1,23 @@
 .App {
-    color: aliceblue;
-    background-color: #121014;
+    color: #18122B !important;
+    background-color:#e6e7ed;
 }
+
+/* Nav Bar Start */
+.logo{
+  height: auto !important;
+  width: 5em !important;
+}
+
+h4{
+  color: #18122B;
+}
+
+.nav{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/* Nav Bar End */
 
 /* Project Start*/
 
