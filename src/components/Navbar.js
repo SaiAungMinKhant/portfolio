@@ -1,28 +1,21 @@
-import Container from 'react-bootstrap/Container';
+import { NavItem } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from './images/logo.png';
 
 function CollapsibleExample() {
   return (
-    <Navbar className='nav' collapseOnSelect expand="md" bg="transparent" variant="dark">
-      <Container>
- 
-          <Nav>
-            <Navbar.Brand href="#home"><img src={logo} alt='' className='logo' /></Navbar.Brand>
-          </Nav>
+    <Navbar className='nav' collapseOnSelect bg="transparent" variant="dark">
 
-          <Nav>
+            <NavItem>
+              <Nav.Link href="#about"><h4>About</h4></Nav.Link>
+            </NavItem>
+            <NavItem>
+              <Nav.Link href="#about"><h4>Projects</h4></Nav.Link>
+            </NavItem>
+            <NavItem>
+              <Nav.Link href="#about"><h4>Contact</h4></Nav.Link>
+            </NavItem>
 
-            <Nav.Link href="#about"><h4>About</h4></Nav.Link>
-
-            <Nav.Link href="#Projects"><h4>Contact</h4></Nav.Link>
-
-            <Nav.Link href="#Contact"><h4>Contact</h4></Nav.Link>
-
-          </Nav>
-
-      </Container>
     </Navbar>
   );
 }

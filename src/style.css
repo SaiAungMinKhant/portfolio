@@ -15,18 +15,35 @@ h4{
 
 .nav{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1.7px solid black !important;
 }
 /* Nav Bar End */
 
 /* Header Start */
 .home-section{
   text-align: left;
-  padding: 80px 25px;
+  padding: 50px;
 }
 /* Header End */
 
 /* Skill Start */
-
+.icons {
+  font-size: 1.8em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid black !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
 /* Skill End */
 
 /* Project Start*/
@@ -56,6 +73,7 @@ h4{
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
+    border: 1.7px solid black !important;
   }
 
   .footer-body {

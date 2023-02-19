@@ -1,29 +1,26 @@
 import React from "react";
-import {Container, Col,Row } from "react-bootstrap";
+import {Col,Row } from "react-bootstrap";
 import {DiJavascript1,DiNodejs,DiReact,DiGit,DiPostgresql} from "react-icons/di";
 
 function Skills(){
     return(
-        <Container className="skill">
-            <Row>
-                <h2>Technologies I Use</h2>
-                <Col>
-                    <p><DiJavascript1 />  Javascript</p>
+            <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+                <Col xs={4} md={2} className='icons'>
+                    <p><DiJavascript1 /><br/>Javascript</p>
                 </Col>
-                <Col>
-                    <p><DiNodejs />  Node.js</p>
+                <Col xs={4} md={2} className='icons'>
+                    <p><DiNodejs /><br/>Node.js</p>
                 </Col>
-                <Col>
-                    <p><DiReact /> React</p>
+                <Col xs={4} md={2} className='icons'>
+                    <p><DiReact /><br/>React</p>
                 </Col>
-                <Col>
-                    <p><DiGit />Git</p>
+                <Col xs={4} md={2} className='icons'>
+                    <p><DiGit /><br/>Git</p>
                 </Col>
-                <Col>
-                    <p><DiPostgresql />  PostgreSQL</p>
+                <Col xs={4} md={2} className='icons'>
+                    <p><DiPostgresql /><br/>PostgreSQL</p>
                 </Col>
             </Row>
-        </Container>
     )
 }
 

@@ -7,11 +7,11 @@ function Header (){
             <Container fluid className='home-section' id='home'>
                 <Row>
                     <Col>
-                        <h1>
-                            My Name Is  
-                            <strong> Sai Aung Min Khant </strong>
+                        <h1>Hi!<br/>
+                            I'm  
+                            <strong> Sai AungMinKhant </strong>
                         </h1>
-                        <h2>I'm a Web Developer</h2>
+                        <h2>A Web Developer</h2>
                     </Col>
                 </Row>
             </Container>
