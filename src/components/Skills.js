@@ -4,7 +4,7 @@ import {DiJavascript1,DiNodejs,DiReact,DiGit,DiPostgresql} from "react-icons/di"
 
 function Skills(){
     return(
-            <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+            <Row className="skills" style={{justifyContent: "center"}}>
                 <Col xs={4} md={2} className='icons'>
                     <p><DiJavascript1 /><br/>Javascript</p>
                 </Col>

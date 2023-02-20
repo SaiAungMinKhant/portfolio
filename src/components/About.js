@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 function About(){
     return(
-        <div>
+        <div className="about">
             <h2>Skills</h2>
             <Skills />
         </div>
