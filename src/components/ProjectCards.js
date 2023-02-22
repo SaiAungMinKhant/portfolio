@@ -11,7 +11,7 @@ function ProjectCards(props) {
             <Card.Text style={{textAlign:"justify"}}>
               {props.description}
             </Card.Text>
-            <Button variant="primary" href={props.ghLink} target="blank" >Demo</Button>
+            <Button className="project-buttons" href={props.ghLink} target="blank" >Demo</Button>
         </Card.Body>
         </Card>
   );

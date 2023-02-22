@@ -1,20 +1,19 @@
 .App {
-    color: #18122B !important;
-    background-color:#e6e7ed;
+    color: #4C4C6D !important;
+    background-color:#B8DFD8;
 }
 
 /* Nav Bar Start */
 h4{
-  color: #18122B;
+  color: #4C4C6D;
 }
 
 .nav{
-  margin: 1px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background-color: #B8DFD8;
+  box-shadow: 0 2px 4px 0px #205E61;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;  
-  border: 1.7px solid black !important;
   border-radius: 5px;
 }
 
@@ -46,7 +45,7 @@ h4{
   font-size: 1.3em !important;
   margin: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid black !important;
+  border: 3px solid #E8F6EF !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -54,6 +53,12 @@ h4{
   flex-direction: column;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+}
+
+.icons:hover{
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 4px 2px rgba(0,0,0,.2) !important;
 }
 /* Skill End */
 
@@ -63,8 +68,6 @@ h4{
   padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  border: 1.7px solid black !important;
-  margin: 1px;
 }
 .project-intro{
   text-align: center;
@@ -72,20 +75,30 @@ h4{
 .project-card{
     padding: 25px 25px;
     height: auto;
-    
+}
+.project-card-view{
+  border: 3px solid #E8F6EF;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
   box-shadow: 0 2px 4px 2px rgba(0,0,0,.2) !important;
 }
+.project-buttons{
+  color: #205E61;
+  background-color: #E8F6EF;
+  border: none;
+ }
+ .project-buttons:hover{
+  background-color: #70bbbe;
+ }
 /* Project End */
 
 /* Contact Start */
 .contact-form{
   margin: 40px 1px;
   padding: 25px;
-  border: 1.7px solid black !important;
   border-radius: 5px;
 }
 
@@ -100,7 +113,8 @@ h4{
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
-    border: 1.7px solid black !important;
+    border: 1px solid #205E61;
+    border-radius: 2px;
   }
 
   .footer-body {
@@ -111,3 +125,4 @@ h4{
     justify-content: space-between;
   }
 /* Footer End  */
+

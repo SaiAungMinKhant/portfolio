@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   return (
-    <Navbar className='nav' collapseOnSelect bg="transparent" variant="dark">
+    <Navbar className='nav' sticky='top' collapseOnSelect variant="dark">
 
             <NavItem>
               <Nav.Link href="#about"><h4>About</h4></Nav.Link>
